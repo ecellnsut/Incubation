@@ -262,7 +262,7 @@ button {
 }
 
 .navbar a:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: #fff;
 }
 
@@ -297,7 +297,7 @@ button {
   height: 200px;
   background: radial-gradient(#61dfc3 20%, transparent 20%);
   background-size: 20px 20px;
-  left: 80px;
+  left: 100px;
   top: 30px;
 }
 
@@ -315,4 +315,50 @@ button {
   text-align: center;
   box-shadow: 10px 5px 20px 0 rgba(97, 98, 243, 0.7);
   z-index: 10;
+}
+
+.stats-card i {
+  color: var(--primary-color);
+}
+
+/* Services */
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.service-text {
+  width: 60%;
+}
+
+.service-text h2 {
+  font-size: 2.25rem;
+}
+
+.service-text p {
+  color: var(--dark-color);
+}
+
+.service-img {
+  height: 280px;
+  width: 35%;
+  border-radius: 20px;
+}
+
+.service-1 {
+  background: url('./img/service-1.PNG') no-repeat center center/cover;
+}
+
+.service-2 {
+  background: url('./img/service-2.PNG') no-repeat center center/cover;
+}
+
+.service-3 {
+  background: url('./img/service-3.PNG') no-repeat center center/cover;
+}
+
+.service-4 {
+  background: url('./img/service-4.PNG') no-repeat center center/cover;
 }
