@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-  --primary-color: #6162f3;
-  --secondary-color: #002760;
+  --primary-color: #e59500;
+  --secondary-color: #61dfc3;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -24,7 +24,6 @@ body {
 }
 
 a {
-  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -70,6 +69,10 @@ img {
 
 .text-primary {
   color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
 }
 
 .text-dark {
@@ -183,9 +186,9 @@ img {
 }
 
 .line {
-  height: 1px;
-  background: #ccc;
-  margin: 1.5rem 0;
+  height: 3px;
+  background: var(--secondary-color);
+  opacity: 0.7;
 }
 
 /* Overlay */
@@ -234,7 +237,7 @@ button {
   align-items: center;
   padding: 0.7rem 2rem;
   width: 100%;
-  box-shadow: 10px 5px 20px 5px var(--secondary-color);
+  box-shadow: 10px 5px 20px 5px var(--primary-color);
   border: 0px transparent;
 }
 
@@ -284,6 +287,10 @@ button {
   margin: 0 0.5rem;
 }
 
+#landing span {
+  text-decoration: underline var(--secondary-color) 5px;
+}
+
 /* Stats */
 #stats {
   position: relative;
@@ -313,7 +320,7 @@ button {
   padding: 1rem 2rem;
   border-radius: 20px;
   text-align: center;
-  box-shadow: 10px 5px 20px 0 rgba(97, 98, 243, 0.7);
+  box-shadow: 10px 5px 20px 0 rgba(229, 149, 0, 0.7);
   z-index: 10;
 }
 
@@ -361,4 +368,30 @@ button {
 
 .service-4 {
   background: url('./img/service-4.PNG') no-repeat center center/cover;
+}
+
+/* Register */
+#register {
+  height: 6rem;
+}
+
+#register h2 {
+  display: inline-block;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+#register button {
+  float: right;
+  margin-top: 2rem;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+}
+
+.social {
+  margin: 1rem 0.5rem 0 0.5rem;
+  display: inline-block;
 }

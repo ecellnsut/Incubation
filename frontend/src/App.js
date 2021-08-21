@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import Stats from './components/Stats';
 import Services from './components/Services';
+import Register from './components/Register';
+import Footer from './components/Footer';
 import './App.css';
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
       <Landing />
       <Stats />
       <Services />
+      <Register />
+      <Footer />
     </Fragment>
   );
 };
