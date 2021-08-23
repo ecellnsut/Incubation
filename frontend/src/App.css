@@ -41,8 +41,6 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
 }
 
 /* Text Styles*/
@@ -177,6 +175,11 @@ img {
   color: #fff;
 }
 
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
 .btn:hover {
   opacity: 0.8;
 }
@@ -212,14 +215,10 @@ img {
   color: #888;
 }
 
-.form input[type='text'],
-.form input[type='email'],
-.form input[type='password'],
-.form input[type='date'],
-.form select,
 .form textarea {
   display: block;
   width: 100%;
+  height: 8rem;
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
@@ -239,6 +238,11 @@ button {
   width: 100%;
   box-shadow: 10px 5px 20px 5px var(--primary-color);
   border: 0px transparent;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+  opacity: 0.9;
 }
 
 .nav-brand {
@@ -270,6 +274,11 @@ button {
 }
 
 /* Landing */
+#landing {
+  padding: 10rem 0;
+  height: 100vh;
+}
+
 .showcase-content {
   text-align: center;
 }
@@ -386,9 +395,69 @@ button {
   margin-top: 2rem;
 }
 
+/* Contact */
+#contact {
+  background-color: var(--primary-color);
+  padding: 2rem 0;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.incubation-head {
+  flex: 1;
+}
+
+.head-card {
+  background-color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.7);
+}
+
+.head-card img {
+  width: 100px;
+  height: 100px;
+  margin-top: -2rem;
+  border: 3px solid var(--primary-color);
+}
+
+.contact-form {
+  flex: 3;
+  margin-left: 5rem;
+}
+
+.contact-form input {
+  width: 45%;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+.contact-form input:last-of-type {
+  float: right;
+}
+
+.contact-form textarea {
+  margin: 1.5rem 0;
+}
+
+.contact-form button {
+  border-radius: 10px;
+}
+
 /* Footer */
 #footer {
   text-align: center;
+  padding: 1.5rem 0;
 }
 
 .social {
