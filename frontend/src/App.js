@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import Stats from './components/Stats';
 import Services from './components/Services';
 import Register from './components/Register';
+import RegisterForm from './components/RegisterForm';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
@@ -16,6 +17,7 @@ const App = () => {
       <Stats />
       <Services />
       <Register />
+      <RegisterForm />
       <Contact />
       <Footer />
     </Fragment>
