@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/http//:ecellnsut.github.io/Incubation/static/css/main.6342f2ce.chunk.css",
-    "main.js": "/http//:ecellnsut.github.io/Incubation/static/js/main.5168422b.chunk.js",
-    "main.js.map": "/http//:ecellnsut.github.io/Incubation/static/js/main.5168422b.chunk.js.map",
-    "runtime-main.js": "/http//:ecellnsut.github.io/Incubation/static/js/runtime-main.6efc7d02.js",
-    "runtime-main.js.map": "/http//:ecellnsut.github.io/Incubation/static/js/runtime-main.6efc7d02.js.map",
-    "static/js/2.35d0a7b6.chunk.js": "/http//:ecellnsut.github.io/Incubation/static/js/2.35d0a7b6.chunk.js",
-    "static/js/2.35d0a7b6.chunk.js.map": "/http//:ecellnsut.github.io/Incubation/static/js/2.35d0a7b6.chunk.js.map",
-    "index.html": "/http//:ecellnsut.github.io/Incubation/index.html",
-    "static/css/main.6342f2ce.chunk.css.map": "/http//:ecellnsut.github.io/Incubation/static/css/main.6342f2ce.chunk.css.map",
-    "static/js/2.35d0a7b6.chunk.js.LICENSE.txt": "/http//:ecellnsut.github.io/Incubation/static/js/2.35d0a7b6.chunk.js.LICENSE.txt",
-    "static/media/logo.507b06ed.jpg": "/http//:ecellnsut.github.io/Incubation/static/media/logo.507b06ed.jpg",
-    "static/media/App.css": "/http//:ecellnsut.github.io/Incubation/static/media/service-4.e95aa356.PNG"
+    "main.css": "/Incubation/static/css/main.019f327c.chunk.css",
+    "main.js": "/Incubation/static/js/main.ef3ec284.chunk.js",
+    "main.js.map": "/Incubation/static/js/main.ef3ec284.chunk.js.map",
+    "runtime-main.js": "/Incubation/static/js/runtime-main.89aeee57.js",
+    "runtime-main.js.map": "/Incubation/static/js/runtime-main.89aeee57.js.map",
+    "static/js/2.35d0a7b6.chunk.js": "/Incubation/static/js/2.35d0a7b6.chunk.js",
+    "static/js/2.35d0a7b6.chunk.js.map": "/Incubation/static/js/2.35d0a7b6.chunk.js.map",
+    "index.html": "/Incubation/index.html",
+    "static/css/main.019f327c.chunk.css.map": "/Incubation/static/css/main.019f327c.chunk.css.map",
+    "static/js/2.35d0a7b6.chunk.js.LICENSE.txt": "/Incubation/static/js/2.35d0a7b6.chunk.js.LICENSE.txt",
+    "static/media/logo.507b06ed.jpg": "/Incubation/static/media/logo.507b06ed.jpg",
+    "static/media/App.css": "/Incubation/static/media/service-4.e95aa356.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.6efc7d02.js",
+    "static/js/runtime-main.89aeee57.js",
     "static/js/2.35d0a7b6.chunk.js",
-    "static/css/main.6342f2ce.chunk.css",
-    "static/js/main.5168422b.chunk.js"
+    "static/css/main.019f327c.chunk.css",
+    "static/js/main.ef3ec284.chunk.js"
   ]
 }
