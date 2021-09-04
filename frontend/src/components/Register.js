@@ -1,5 +1,6 @@
 import React from 'react';
 import { useGlobalContext } from '../context';
+import './Register.css';
 
 const Register = () => {
   const { setFormVisible } = useGlobalContext();

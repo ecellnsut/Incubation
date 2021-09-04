@@ -1,0 +1,26 @@
+#landing {
+    padding: 10rem 0;
+    height: 100vh;
+  }
+  
+  .showcase-content {
+    text-align: center;
+  }
+  
+  .showcase-content p {
+    font-weight: bold;
+  }
+  
+  .showcase-buttons {
+    margin: auto;
+    width: 300px;
+  }
+  
+  #landing .btn {
+    margin: 0 0.5rem;
+  }
+  
+  #landing span {
+   /* text-decoration: underline var(--secondary-color) 5px;*/
+  }
+  

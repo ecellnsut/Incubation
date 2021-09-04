@@ -1,0 +1,15 @@
+#footer {
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .social {
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    display: inline-block;
+    transition: transform 0.4s ease-in;
+  }
+  
+  .social:hover {
+    transform: scale(1.1);
+  }
+  

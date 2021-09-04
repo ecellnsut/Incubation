@@ -1,0 +1,15 @@
+#register {
+    height: 6rem;
+  }
+  
+  #register h2 {
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  
+  #register a {
+    float: right;
+    margin-top: 2rem;
+  }
+  

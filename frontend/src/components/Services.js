@@ -1,4 +1,5 @@
 import React from 'react';
+import './Services.css';
 
 const Services = () => {
   return (
@@ -6,12 +7,12 @@ const Services = () => {
       <div className="container">
         <div className="service">
           <div className="service-text">
-            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <h2>Lorem, ipsum dolor sit  </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, quisquam illo libero quod ut qui quia, explicabo
-              consectetur iusto porro modi rerum incidunt. Alias cumque minima
-              dolores voluptate! Tempore impedit ducimus voluptatibus similique
+              Lorem ipsum dolor sit amet 
+              Accusantium, quisquam illo libero quod ut qui 
+              consectetur iusto porro modi rerum incidunt. 
+              dolores voluptate! Tempore impedit ducimus
               quasi ex!
             </p>
           </div>
@@ -20,24 +21,24 @@ const Services = () => {
         <div className="service">
           <div className="service-img service-2"></div>
           <div className="service-text">
-            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <h2>Lorem, ipsum dolor sit  </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, quisquam illo libero quod ut qui quia, explicabo
-              consectetur iusto porro modi rerum incidunt. Alias cumque minima
-              dolores voluptate! Tempore impedit ducimus voluptatibus similique
+              Lorem ipsum dolor sit amet 
+              Accusantium, quisquam illo libero quod ut qui 
+              consectetur iusto porro modi rerum incidunt. 
+              dolores voluptate! Tempore impedit ducimus 
               quasi ex!
             </p>
           </div>
         </div>
         <div className="service">
           <div className="service-text">
-            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <h2>Lorem, ipsum dolor sit  </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, quisquam illo libero quod ut qui quia, explicabo
-              consectetur iusto porro modi rerum incidunt. Alias cumque minima
-              dolores voluptate! Tempore impedit ducimus voluptatibus similique
+              Lorem ipsum dolor sit amet 
+              Accusantium, quisquam illo libero 
+              consectetur iusto porro modi rerum incidunt. 
+              dolores voluptate! Tempore impedit ducimus
               quasi ex!
             </p>
           </div>
@@ -46,12 +47,12 @@ const Services = () => {
         <div className="service">
           <div className="service-img service-4"></div>
           <div className="service-text">
-            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <h2>Lorem, ipsum dolor sit  </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, quisquam illo libero quod ut qui quia, explicabo
-              consectetur iusto porro modi rerum incidunt. Alias cumque minima
-              dolores voluptate! Tempore impedit ducimus voluptatibus similique
+              Lorem ipsum dolor sit amet 
+              Accusantium, quisquam illo libero quod ut qui 
+              consectetur iusto porro modi rerum incidunt. 
+              dolores voluptate! Tempore impedit ducimus 
               quasi ex!
             </p>
           </div>

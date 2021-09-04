@@ -1,54 +1,96 @@
 import React, { useState } from 'react';
 
+import locationIcon from '../img/location.svg';
+import phoneIcon from '../img/phone.svg';
+import emailIcon from '../img/email.svg';
+import "./Contact.css";
+
 const Contact = () => {
-  const [name, setName] = useState('');
+  const [firstName,lastName, setFirstName,setLastName] = useState('');
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
 
   return (
     <div id="contact">
-      <div className="container">
-        <div className="contact-info">
-          <div className="incubation-head">
-            <h2 className="large">Contact Us</h2>
-            <div className="head-card">
-              <img
-                src="https://randomuser.me/api/portraits/men/73.jpg"
-                alt="Incubation Head"
-                className="round-img"
-              />
-              <h3>John Doe</h3>
-              <p className="position">Incubation Head</p>
-              <p>Mob: 9999xxxxxx</p>
-            </div>
-          </div>
+     <div className="container_left">
+       <div className="container_left__heading">
+              
+         <h1>Contact Us</h1>
+     <h6>Fill up the form and our team will get back to you within 24 hours</h6>
+     </div>
+     <div className="container_left__iconsBox">
+       <div className="container_left__icons">
+         <img className="icon" src={phoneIcon}/>
+         <h5>12345678
+         </h5>
+       </div>
+       <div className="container_left__icons">
+         <img className="icon" src={emailIcon}/>
+         <h5>  hello@gmail
+         </h5>
+       </div>
+       <div className="container_left__icons">
+         <img className="icon" src={locationIcon}/>
+         <h5>Delhi
+         </h5>
+       </div>
+     </div>
+
+
+
+     </div>
+      <div className="container-right">
+       
           <div className="contact-form">
             <form className="form">
+              <div className="inputField"> 
+              <label>First Name</label>
               <input
                 type="text"
-                placeholder="Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
               />
+              </div >
+              <div className="inputField">
+                <label>Last Name</label>
+              <input
+                type="text"
+                value={lastName}
+                onChange={(e) => setLastName(e.target.value)}
+              />
+              </div>
+              <div className="inputField">
+                <label>Phone</label>
+              <input
+                type="phone"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+              />
+              </div>
+              <div className="inputField">
+                <label>Email</label>
               <input
                 type="email"
-                placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
+              </div>
+              <div className="inputField">
+              <label>Message</label>
               <textarea
-                placeholder="Enter Message..."
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
-              <button type="submit" className="btn btn-dark btn-block">
+              </div>
+              <button type="submit" className="contact__btn">
                 Submit
               </button>
             </form>
           </div>
         </div>
       </div>
-    </div>
+   
   );
 };
 

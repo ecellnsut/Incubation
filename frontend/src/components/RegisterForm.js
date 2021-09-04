@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useGlobalContext } from '../context';
+import './RegisterForm.css';
 
 const RegisterForm = () => {
   const { formVisible, setFormVisible } = useGlobalContext();

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+ input{
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+}
+.inputField textarea{
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+}
+label{
+    color:white;
+}
+.contact__btn{
+    background-color:#6D6D6B;
+    width:140px;
+    height:50px;
+    border-radius: 10px;
+    color:white;
+   
+}
+.contact__btn:hover{
+   background-color:#1B1A17;
+   cursor: pointer;
+}
+
+#contact{
+    display: flex;
+    background: #1B1A17;
+    padding:2rem 0 2rem 2rem;
+}
+.container_left{
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction: column;
+    background:var(--primary-color);
+    border-radius: 30px;
+    height:500px;
+    width:30%;
+    align-items: center;
+    text-align: center;
+   
+    color:black;
+}
+
+.container_left__heading{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top:2rem;
+   
+}
+.container_left__heading h1{
+    margin-bottom: 1rem;
+    
+}
+.container_left__iconsBox{
+    display:flex;
+    flex-direction: column;
+    padding:4rem;
+}
+
+.container_left__icons{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-column-gap:3rem;
+   
+    margin-bottom: 2rem;
+}
+
+.icon{
+    width:30px;
+    height:35px;
+    color: black;
+}
+
+.form{
+    padding:4rem;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-column-gap: 10rem;
+    grid-row-gap:5rem;
+}
+
+.inputField {
+      display:flex;
+      flex-direction: column;
+      align-content: space-between;
+      row-gap:1.5rem;
+}
+textarea:focus, input:focus{
+    outline: none;
+}

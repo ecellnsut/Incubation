@@ -1,0 +1,37 @@
+#stats {
+    position: relative;
+    background-color: var(--light-color);
+    padding: 2rem 0;
+  }
+  
+  .stats-bg {
+    position: absolute;
+    width: 170px;
+    height: 200px;
+    background: radial-gradient(#61dfc3 20%, transparent 20%);
+    background-size: 20px 20px;
+    left: 100px;
+    top: 30px;
+  }
+  
+  .stats-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .stats-card {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 5px 20px 0 rgba(229, 149, 0, 0.7);
+    z-index: 10;
+  }
+  
+  .stats-card i {
+    color: var(--primary-color);
+  }
+  
+  

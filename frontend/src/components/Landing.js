@@ -1,5 +1,6 @@
 import React from 'react';
 import { useGlobalContext } from '../context';
+import './Landing.css';
 
 const Landing = () => {
   const { setFormVisible } = useGlobalContext();
